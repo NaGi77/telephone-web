@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 480px;
+}
+a:link,a:visited{ font-style: normal;}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.header {
+    background:#B3E6FF;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+.header .title {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    vertical-align: middle;
+    padding: 0.7em 0px;
+    font-family: "微软雅黑";
+    max-width: 200px;
+    width: 200px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 22px;
+}
+/*小格子们的颜色*/
+.a1 {
+	background-color:#66CCCC;
+}
+.a2 {
+	background-color:#FFFF66;
+}
+.a3 {
+	background-color:#FFCCCC;
+}
+.a4 {
+	background-color:#CCCCFF;
+}
+.a5 {
+	background-color:#CCFF99;
+}
+.a6 {
+	background-color:#FFFF99;
+}
+.a7{
+	background-color: #99ADFF;
+}
+.a8{
+	background-color: #FFCC99;
+}
+/*小格子颜色over*/
+
+
+
+.container{  margin: 0 auto;min-height: 300px; width: 100%}
+.width90{width: 90%}
+.width80{width: 80%}
+.width100{width: 100%}
+ .pt20{ padding-top: 10px;}
+.fl{ float: left;}
+.fr{ float: right;}
+.none{ display: none;}
+
+.tab-pane{display: none}
+.active{ display: block;}
+
+.input{    background: none repeat scroll 0 0 #F9F9F9;padding: 3px;}
+.footer{  margin: 10px auto 0px;text-align: center;}
+
+.clear{clear: both}
+.defaultlist {
+    width:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	display:box;
+    margin-bottom: 0px;
+}
+.defaultlist li {
+   	height:100px;
+	position:relative;
+	margin:0 0 5px 5px;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	box-flex:1;
+}
+.defaultlist h3 {
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	width:50px;
+	font:500  20px/1 hei;
+	color:#fff;
+	font-weight: bolder;
+}
+
+figure {
+	position:absolute;
+	z-index:9;
+	top:15px;
+	left:50%;
+	margin-left:-20px;
+	width:68px;
+	height:62px;
+	background:url(../images/defaultimg.png) no-repeat 0 0;
+	background-size:155px 192px;
+}
+
+.jp_icon {
+	background-position:0px 0px;
+}
+.jd_icon {
+	background-position:-75px 0;
+}
+.hb_icon {
+	background-position:0 -60px;
+}
+.mp_icon {
+	width:78px;
+	background-position:-79px -60px;
+}
+.hcp_icon {
+	background-position:0 -132px;
+}
+.wdxc_icon {
+	background-position:-79px -130px;
+}
