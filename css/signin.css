@@ -10,12 +10,12 @@
   outline: none;
   width: 80%;
   color: #fff;
-  background-color:#6BC0FF ;
+  background-color: #ff728b;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
-  box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
+  -webkit-box-shadow: 0 0 0 -2px #FEEAC5, 0 0 0 -1px #ff728b;
+  box-shadow: 0 0 0 -2px #FEEAC5, 0 0 0 -1px #ff728b;
   border: none;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
@@ -23,8 +23,8 @@
   margin-top: 30px;
 }
 .submit-btn:hover, .submit-btn:focus {
-  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
-  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
+  -webkit-box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #ff97aa;
+  box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #ff97aa;
   -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
   transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
   -webkit-animation: gelatine 0.5s 1;
@@ -34,8 +34,8 @@
   background: #4ecdc4;
   -webkit-transition-duration: 0;
   transition-duration: 0;
-  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
-  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
+  -webkit-box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #fe4364;
+  box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #fe4364;
 }
 @keyframes gelatine {
   from, to {
@@ -123,20 +123,19 @@
 /*注册栏*/
 .form input{
   display:block;
-  border: #96C4E6 1.5px solid;
+  border: #ff728b 1.5px solid;
   height: 40px;
   margin: 10px auto;
 
 }
 .form .sign{
-  background-color: #DDF0ED;
+  background-color: #FFCCCC;
   margin-top: 30px;
 }
-.form .signin{
+.form .login{
   float: right;
   margin-right:40px; 
 }
-
 
 /*背景*/
 .login_bg{
