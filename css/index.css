@@ -106,28 +106,14 @@ figure {
 	top:10px;
 	left:50%;
 	margin-left:-20px;
+	margin-top: 20px;
 	width:68px;
 	height:62px;
-	background:url(../images/defaultimg.png) no-repeat 0 0;
-	background-size:155px 192px;
 }
-
-.jp_icon {
-	background-position:0px 0px;
+.defaultlist .icon{
+	color: #fff;
+	margin-left: 5px;
 }
-.jd_icon {
-	background-position:-75px 0;
-}
-.hb_icon {
-	background-position:0 -60px;
-}
-.mp_icon {
-	width:78px;
-	background-position:-79px -60px;
-}
-.hcp_icon {
-	background-position:0 -132px;
-}
-.wdxc_icon {
-	background-position:-79px -130px;
+.defaultlist .icon i{
+	font-size: 50px;
 }

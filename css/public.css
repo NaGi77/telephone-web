@@ -33,6 +33,7 @@ body {
     overflow: hidden;
     height: 22px;
 }
+
 .container{  margin: 0 auto;min-height: 300px; width: 100%}
 .width90{width: 90%}
 .width80{width: 80%}
@@ -67,9 +68,21 @@ footer{
     margin: 0;
 }
 .footer li {
-    height:40px;
+    height:50px;
     position:relative;
     -webkit-box-flex:1;
     -moz-box-flex:1;
     box-flex:1;
+}
+
+
+.sg_ing{
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    margin-top:50px; 
+}
+.sg_ing img{
+    width: 100%;
+    height: 100%;
 }
