@@ -1,5 +1,17 @@
 body{
-	 background: url(../Images/classbg.jpg);
+	 min-width: 320px;
+    max-width: 480px;
+}
+.class_bg{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+    max-width: 480px;
+    min-height: 300px;
+}
+.class_bg img{
+  width: 100%;
+  height: 100%;
 }
 .container{
 	min-width: 320px;

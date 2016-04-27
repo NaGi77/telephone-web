@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     min-width: 320px;
     max-width: 480px;
+    background: #000;
 }
 a:link,a:visited{ font-style: normal;}
 img {
@@ -31,29 +32,62 @@ img {
     height: 22px;
 }
 /*小格子们的颜色*/
+.list_li{
+/*	border: #0DFEFF 1px solid;*/
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.list_bg{
+	position: absolute;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.3;
+}
+.a{
+	height: 80px;
+	display: block;
+	width: 80px;
+	border-radius: 40px;
+	margin-top: 10px;
+	margin-left:10px; 
+}
 .a1 {
 	background-color:#66CCCC;
 }
 .a2 {
-	background-color:#FFFF66;
+	background-color:#CCCC33;
 }
-.a3 {
-	background-color:#FFCCCC;
+.list_li .a3 {
+	height: 80px;
+	display: block;
+	background-color:#FF99CC;
+	width: 80px;
+	border-radius: 40px;
+	margin-top: 10px;
+	margin-left:10px; 
 }
 .a4 {
-	background-color:#CCCCFF;
+	background-color:#6699CC;
+	height: 80px;
+	display: block;
+	width: 80px;
+	border-radius: 40px;
+	margin-top: 10px
 }
 .a5 {
-	background-color:#CCFF99;
+	background-color:#66CC99;
 }
 .a6 {
-	background-color:#FFFF99;
+	background-color:#FF9966;
 }
 .a7{
 	background-color: #99ADFF;
 }
 .a8{
-	background-color: #FFCC99;
+	background-color: #CC3399;
 }
 /*小格子颜色over*/
 
@@ -92,7 +126,7 @@ img {
 }
 .defaultlist h3 {
 	position:absolute;
-	left:20px;
+	left:25px;
 	bottom:20px;
 	width:50px;
 	font:500  20px/1 hei;

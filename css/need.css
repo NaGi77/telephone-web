@@ -1,0 +1,155 @@
+/*注册按钮*/
+.submit-btn {
+  display: block;
+  height: 40px;
+  top:100px;
+  left: 90px;
+  margin: 15px auto;
+  font-size: 1.25rem;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#6BC0FF ;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
+  box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
+  border: none;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  cursor: pointer;
+  margin-top: 30px;
+}
+#button{
+    width: 80%;
+}
+.submit-btn:hover, .submit-btn:focus {
+  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
+  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
+  -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  -webkit-animation: gelatine 0.5s 1;
+  animation: gelatine 0.5s 1;
+}
+.submit-btn:active{
+  background: #4ecdc4;
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
+  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
+}
+@keyframes gelatine {
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+@-webkit-keyframes gelatine {
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
+/*注册栏*/
+.form input{
+  display:block;
+  border: #96C4E6 1.5px solid;
+  height: 40px;
+  margin: 10px auto;
+
+}
+.form .sign{
+  background-color: #DDF0ED;
+  margin-top: 30px;
+}
+.form .signin{
+  float: right;
+  margin-right:40px; 
+}
+
+
+/*背景*/
+.login_bg{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  max-width: 480px;
+  z-index: -1;
+}
+.login_bg img{
+  height: 100%;
+  width: 100%;
+}
