@@ -1,5 +1,5 @@
 /*注册按钮*/
-.form .submit-btn {
+.submit-btn {
   display: block;
   height: 40px;
   top:100px;
@@ -10,12 +10,12 @@
   outline: none;
   width: 80%;
   color: #fff;
-  background-color:#6BC0FF ;
+  background-color: #ff728b;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
-  box-shadow: 0 0 0 -2px #BFF1FF, 0 0 0 -1px #6BC0FF;
+  -webkit-box-shadow: 0 0 0 -2px #FEEAC5, 0 0 0 -1px #ff728b;
+  box-shadow: 0 0 0 -2px #FEEAC5, 0 0 0 -1px #ff728b;
   border: none;
   -webkit-transition: -webkit-box-shadow .3s;
   transition: box-shadow .3s;
@@ -23,8 +23,8 @@
   margin-top: 30px;
 }
 .submit-btn:hover, .submit-btn:focus {
-  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
-  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #6BC0FF;
+  -webkit-box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #ff97aa;
+  box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #ff97aa;
   -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
   transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
   -webkit-animation: gelatine 0.5s 1;
@@ -34,8 +34,8 @@
   background: #4ecdc4;
   -webkit-transition-duration: 0;
   transition-duration: 0;
-  -webkit-box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
-  box-shadow: 0 0 0 2px #BFF1FF, 0 0 0 4px #9AE4FC;
+  -webkit-box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #fe4364;
+  box-shadow: 0 0 0 2px #FEEAC5, 0 0 0 4px #fe4364;
 }
 @keyframes gelatine {
   from, to {
@@ -121,25 +121,24 @@
 }
 
 /*注册栏*/
-.form input{
+/*.form input{
   display:block;
-  border: #96C4E6 1.5px solid;
+  border: #ff728b 1.5px solid;
   height: 40px;
   margin: 10px auto;
 
 }
 .form .sign{
-  background-color: #DDF0ED;
+  background-color: #FFCCCC;
   margin-top: 30px;
 }
-.form .signin{
+.form .login{
   float: right;
   margin-right:40px; 
-}
-
+}*/
 
 /*背景*/
-.login_bg{
+/*.login_bg{
   position:absolute;
   width: 100%;
   height: 100%;
@@ -150,4 +149,271 @@
 .login_bg img{
   height: 100%;
   width: 100%;
+}*/
+.login_bg{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.login_bg img{
+  width: 100%;
+  height: 100%;
+}
+.demo {
+  width: 80%;
+  min-height: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+box-shadow: 0px 0px 20px #fff;
+  margin: 15px auto;
+  border-radius: 75px;
+  text-align: center;
+  overflow: hidden;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+.login {
+  position: relative;
+  height: 100%;
+  padding: 5px;
+  min-height: 300px;
+  background: -webkit-linear-gradient(top, rgba(6, 57, 86, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(6, 57, 86, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*对勾的*/
+/*
+.login__check {
+  top: 100px;
+  left: 200px;
+  width: 100px;
+  height: 20px;
+  background: #fff;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.login__check:before {
+  content: "";
+  left: 0;
+  bottom: 100%;
+  width: 20px;
+  height: 40px;
+  background: #fff;
+  box-shadow: inset -0.2rem -2rem 2rem rgba(0, 0, 0, 0.2);
+}*/
+/**/
+.login_form {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+.login_row {
+  position: relative;
+/*  background: red;*/
+  width: 80%;
+  margin: 20px auto;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+.login_icon {
+  position: absolute;
+  left: 5px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+.login_icon.name path {
+  stroke-dasharray: 73.50196075439453;
+  stroke-dashoffset: 73.50196075439453;
+  -webkit-animation: animatePath 2s 0.5s forwards;
+          animation: animatePath 2s 0.5s forwards;
+}
+.login_icon.pass path {
+  stroke-dasharray: 92.10662841796875;
+  stroke-dashoffset: 92.10662841796875;
+  -webkit-animation: animatePath 2s 0.5s forwards;
+          animation: animatePath 2s 0.5s forwards;
+}
+.login_input {
+  display: inline-block;
+  width:70%;
+  margin-left: 25px;
+  height: 100%;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #FDFCFD;
+}
+#user{
+  background: none;
+  border: 0px;
+  box-shadow: 0px;
+}
+#password{
+  background: none;
+  border: 0px;
+  box-shadow: 0px;
+}
+.login_submit {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  margin: 5rem 0 2.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: #FF3366;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+.login_submit:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.5rem;
+  margin-top: -1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 2px dotted #fff;
+  border-radius: 50%;
+  border-left: none;
+  border-bottom: none;
+  -webkit-transition: opacity 0.1s 0.4s;
+  transition: opacity 0.1s 0.4s;
+  opacity: 0;
+}
+.login_submit.processing {
+  width: 4rem;
+  font-size: 0;
+}
+.login_submit.processing:after {
+  opacity: 1;
+  -webkit-animation: rotate 0.5s 0.4s infinite linear;
+          animation: rotate 0.5s 0.4s infinite linear;
+}
+.login_submit.success {
+  -webkit-transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+  transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+  transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
+  transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+  -webkit-transform: scale(30);
+          transform: scale(30);
+  opacity: 0.9;
+}
+.login_submit.success:after {
+  -webkit-transition: opacity 0.1s 0s;
+  transition: opacity 0.1s 0s;
+  opacity: 0;
+  -webkit-animation: none;
+          animation: none;
+}
+.login_signup {
+  font-size: 15px;
+  color: #CCC;
+}
+.login_signup a {
+  color: #fff;
+  cursor: pointer;
+}
+
+svg {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  overflow: visible;
+}
+
+.svg-icon {
+  cursor: pointer;
+}
+.svg-icon path {
+  stroke: rgba(255, 255, 255, 0.9);
+  fill: none;
+  stroke-width: 1;
+}
+
+input, button {
+  outline: none;
+  border: none;
+}
+
+.login.inactive {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*登录图标*/
+.ripple {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  margin-left: -7.5rem;
+  margin-top: -7.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: animRipple 0.4s;
+          animation: animRipple 0.4s;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes animRipple {
+  to {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+    opacity: 0;
+  }
+}
+
+@keyframes animRipple {
+  to {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes animatePath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes animatePath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+#button{
+    width: 80%;
 }

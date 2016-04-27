@@ -1,34 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head id="Head1">
-    <title>“人人帮”移动互助教育系统</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>名字待定的手机界面</title>
     <meta charset='utf-8' />
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, user-scalable=0,maximum-scale=1">
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/login.css" rel="stylesheet" />
     <link href="css/public.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-    <![endif]-->
+    <link href="css/login.css" rel="stylesheet" />
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/need.css" type="text/css" />
+
 </head>
+
 <body>
-    <div class="login_bg"><img src="Images/loginbg1.jpg"></div>
-    <div class="container">
-        <div class="header">
+  <div class="container">
+    <div class="login_bg"><img src="Images/login6.jpg"></div>
+    <div class="header">
         <a href="index.html"><img src="Images/icon_home.png"></a>
         <h1 class="title">登录界面</h1>
+    </div>  
+    <div class="demo">
+        <div class="login">
+          <div class="logo"><img src="Images/user.jpg"></div>
+<!--             <div class="login__check"></div>  -->
+            <div class="login_form">
+                <div class="login_row">
+                  <svg class="login_icon name svg-icon" viewBox="0 0 20 20">
+                      <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+                  </svg>
+                  <input type="text" class="login_input name" placeholder="Username" id="user"/>
+                </div>
+                <div class="login_row">
+                  <svg class="login_icon pass svg-icon" viewBox="0 0 20 20">
+                    <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
+                  </svg>
+                  <input type="password" class="login_input pass" placeholder="Password" id="password"/>
+                </div>
+                <input type="submit" value="提    交" class="width80 submit-btn " id="button"/>
+        <!--         <button type="button" class="login_submit">Sign in</button> -->
+                  <p class="login_signup">Don't have an account? &nbsp;<a href="signin.html">Sign up</a></p>
+                </div>  
+            </div>
         </div>
-        <div class="form">
-        <input type="text" placeholder="用户名" id="name" class="width80 sign">
-        <input type="password" placeholder="密码" maxlength="15" class="width80 sign">
-        <input type="submit" value="提    交" class="width80 submit-btn " id="button"/>
-        <a href="signin.html" class="signin">还没账号？点击注册</a>
-        </div>
-    </div>    
+    </div>
+  </div>
     <footer>
         <ul class="footer" type="none">
             <li>1</li>
@@ -36,6 +53,8 @@
             <li>3</li>
             <li>4</li>
         </ul>
-    </footer>
+    </footer> 
+<script type="text/javascript" src='js/login.js'></script>
+
 </body>
 </html>
