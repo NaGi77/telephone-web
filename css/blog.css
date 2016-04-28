@@ -27,8 +27,12 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top:10px; 
-	background: #134f6c;
-	border-radius: 20px;
+	background: #00375b;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-moz-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-o-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	box-shadow: 0px 1px 3px rgb(190, 190, 190);
 }
 .trigger_blog{
 	padding:0px;
@@ -53,7 +57,7 @@ ul.listing_detailed li a{
 	text-decoration: none;
 	color: #fff;
 }
-/*-----------------Blog posts style-------------------*/
+
 ul.posts{
 	padding:0px; 
 	margin:0px auto; 
@@ -74,16 +78,11 @@ ul.posts li.post{
 	position:absolute; 
 	top:0px; 
 	left:0px; 
-	background: #6bb3d2;
+	background:#72afe8;
 }
-span.day{ 
+span.class{ 
 	display:block; 
-	font-size:40px;
-	 padding:15px 0 0 0;
-}
-span.month{ 
-	display:block; 
-	font-size:22px;
+	font-size:25px;
 	padding:10px 0 0 0;
 }
 .post_right_reveal{
@@ -110,7 +109,7 @@ span.month{
 	z-index:88; 
 	line-height:24px;
 	font-size:14px;
-	background: #6bb3d2;
+	background:#72afe8;
 }
 .post_right_reveal h4{ 
 	padding:10px 10px 0 0;
@@ -141,7 +140,12 @@ a.post_readmore{ padding:0 0 0 15px;font-weight:normal; font-size:12px;}
 	font-size:14px;
 	display:block; 
 	cursor:pointer;
-	background: #4a5386;
+	background: #00375b;	
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-moz-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-o-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	box-shadow: 0px 1px 3px rgb(190, 190, 190);
 }
 #showLess{
 	width:90%;
@@ -152,6 +156,11 @@ a.post_readmore{ padding:0 0 0 15px;font-weight:normal; font-size:12px;}
 	font-size:14px; 
 	display:none;
 	background: #3bbb6f;
+		border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-moz-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	-o-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
+	box-shadow: 0px 1px 3px rgb(190, 190, 190);
 }
 
 
