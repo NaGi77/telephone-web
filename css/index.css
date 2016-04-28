@@ -451,21 +451,21 @@ width:50px; height:44px;text-indent: -9999px; margin:0; padding:0;
 }
 #slidesbg1{
 	background: url(../Images/login-bg.jpg) center 0px;
-	height: 120px;
+	height: 200px;
 }
 
 #slidesbg2{
 	background: url(../Images/login-bg.jpg) center -240px;
-	height: 120px;
+	height: 200px;
 }
 
 #slidesbg3{
 	background: url(../Images/login-bg.jpg) center -480px;
-	height: 120px;
+	height: 200px;
 }
 #slidesbg4{
 	background: url(../Images/login-bg.jpg) center -720px;
-	height: 120px;
+	height: 200px;
 }
 
 .flexslider .slides > li {
