@@ -1,6 +1,6 @@
 .container{
-	background: -webkit-linear-gradient(top, rgba(149,177,191, 1) 0%, rgba(255, 255, 255, 0.4) 100%);
- 	background: linear-gradient(to bottom, rgba(149,177,191, 1) 0%, rgba(255, 255, 255, 0.4) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,241,222, 1) 0%, rgba(222, 249, 243, 0.4) 100%);
+ 	background: linear-gradient(to bottom, rgba(255,241,222, 1) 0%, rgba(222, 249, 243, 0.4) 100%);
 }
 .scrolltop{ 	
 	display:block;
@@ -27,7 +27,7 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top:10px; 
-	background: #00375b;
+	background: #53589a;
 	border-radius: 3px;
 	-webkit-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
 	-moz-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
@@ -78,7 +78,7 @@ ul.posts li.post{
 	position:absolute; 
 	top:0px; 
 	left:0px; 
-	background:#72afe8;
+	background:#B3E6FF;
 }
 span.class{ 
 	display:block; 
@@ -93,7 +93,7 @@ span.class{
 	left:25%;
 	padding:0 0 0 5%; 
 	z-index:99;
-	background:#717171;
+	background:#acadac;
 }
 .post_right_reveal a{
 	text-decoration: none;
@@ -109,7 +109,7 @@ span.class{
 	z-index:88; 
 	line-height:24px;
 	font-size:14px;
-	background:#72afe8;
+	background:#B3E6FF;
 }
 .post_right_reveal h4{ 
 	padding:10px 10px 0 0;
@@ -140,7 +140,7 @@ a.post_readmore{ padding:0 0 0 15px;font-weight:normal; font-size:12px;}
 	font-size:14px;
 	display:block; 
 	cursor:pointer;
-	background: #00375b;	
+	background: #53589a;	
 	border-radius: 3px;
 	-webkit-box-shadow: 0px 1px 3px rgb(190, 190, 190); 
 	-moz-box-shadow: 0px 1px 3px rgb(190, 190, 190); 

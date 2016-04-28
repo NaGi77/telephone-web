@@ -45,6 +45,10 @@ a:focus { outline:none; }
 
 a:hover, a:active{ color:#ff539f; outline:none;}
 
+body{
+	background:#ddf0ed;
+}
+
 
  i
 /*标题*/
@@ -1199,11 +1203,11 @@ background-color:#179F00;
 	text-align: center; 
 	width: 100%; 
 	overflow: hidden;
-	-webkit-box-shadow: 5px 2px 6px rgb(190, 190, 190); 
-	-moz-box-shadow: 5px 2px 6px rgb(190, 190, 190); 
-	-o-box-shadow: 5px 2px 6px rgb(190, 190, 190); 
-	box-shadow: 5px 2px 6px rgb(190, 190, 190);
-	box-shadow:5px 2px 6px rgb(190, 190, 190);
+	-webkit-box-shadow: 2px 2px 2px rgb(190, 190, 190); 
+	-moz-box-shadow: 2px 2px 2px rgb(190, 190, 190); 
+	-o-box-shadow: 2px 2px 2px rgb(190, 190, 190); 
+	box-shadow: 2px 2px 2px rgb(190, 190, 190);
+	box-shadow:2px 2px 2px rgb(190, 190, 190);
 }
 
 .channellist2 li a{
