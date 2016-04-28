@@ -7,7 +7,7 @@
 	margin-bottom: 50px;
 }
 .scrolltop a{ 
-	background: #52C3DD;
+	background: #72afe8;
 	display:block; 
 	text-align:center;
 	border-radius: 20px;
@@ -78,7 +78,7 @@ ul.posts li.post{
 	position:absolute; 
 	top:0px; 
 	left:0px; 
-	background:#52C3DD;
+	background:#72afe8;
 }
 span.class{ 
 	display:block; 
@@ -109,7 +109,7 @@ span.class{
 	z-index:88; 
 	line-height:24px;
 	font-size:14px;
-	background:#52C3DD;
+	background:#72afe8;
 }
 .post_right_reveal h4{ 
 	padding:10px 10px 0 0;
