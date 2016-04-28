@@ -1,109 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head id="Head1">
-    <title>“人人帮”移动互助教育系统</title>
-    <meta charset='utf-8' />
-    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, user-scalable=0,maximum-scale=1">
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-    <![endif]-->
-    <script src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<head>
+    
+<title>“人人帮”移动互助教育系统</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="NaGi77" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+
 </head>
 <body>
-    <div class="container">
-    <div class="header">
-    <h1 class="title">人人帮</h1>
-    <!--     <img src="#" style="height: 40px; margin: 10px 0px 0px 15px" />--> 
-    </div>
-     <div style="padding:0 5px 0 0;">
-         <ul class="unstyled defaultlist pt20">
-             <li class="list_li">
-                <div class="list_bg"></div>
-                 <a href="login.html" class="a a1">
-                 <h3>用户登录</h3>
-                 <figure class="icon"><i class="icon-check icon-4x"></i></figure>
-                 </a>
-             </li>
-             <li class="list_li">
-                <div class="list_bg"></div>
-                 <a href="signin.html" class="a a2">
-                  <h3>用户注册</h3>
-                  <figure class="icon"><i class="icon-coffee icon-4x"></i></figure>
-                  </a>
-             </li>
-         </ul>
-         <ul class="unstyled defaultlist">
-             <li class="list_li">
-                <div class="list_bg"></div>
-                 <a href="class.html" class="a a3">
-                  <h3>课程预约</h3>
-                  <figure class="icon"><i class=" icon-calendar icon-4x"></i></figure>
-                 </a>
-                 
-             </li>
-             <li class="list_li">
-                <div class="list_bg"></div>
-                <a href="login.html" class="a a4">
-                <h3>个人中心</h3>
-                <figure class="icon"><i class=" icon-leaf icon-4x"></i></figure>
-                </a>
-             </li>
-         </ul>
-         <ul class="unstyled defaultlist">
-             <li class="list_li">
-                <div class="list_bg"></div>
-                <a href="school.html" class="a a5">
-                <h3>老师一览</h3>
-                <figure class="icon"><i class=" icon-magic icon-4x"></i></figure>
-                </a>
-             </li>
-             
-             <li class="list_li">
-                <div class="list_bg"></div>
-                 <a href="about.html" class="a a6">
-                <h3>最新动态</h3>
-                <figure class="icon"><i class="icon-book icon-4x"></i></figure>
-                  </a>
-             </li>
-           
-         </ul>
-              <ul class="unstyled defaultlist">
-             <li class="list_li">
-                <div class="list_bg"></div>
-                <a href="need.html" class="a a7">
-                <h3>关于我们</h3>
-                <figure class="icon"><i class="icon-home icon-4x"></i></figure>
-                </a>
-             </li>
-             
-             <li class="list_li">
-                <div class="list_bg"></div>
-                 <a href="help.html" class="a a8">
-                <h3>建议意见</h3>
-                <figure class="icon"><i class="icon-envelope-alt icon-4x"></i></figure>
-                  </a>
-             </li>
-     </div>
- </div>    
 
-  <div class="footer">
-  <div class="gezifooter">
-    <a href="#" class="ui-link">空1</a> 
-    <font color="#878787">|</font> 
-    <a href="#" class="ui-link">空2</a> 
-    <font color="#">|</font> 
-    <a href="#" class="ui-link">空3</a> 
-    <font color="#">|</font> 
-    <a href="#" class="ui-link">空4</a>
-  </div>
-  <div class="gezifooter">
-    <p style="color:#bbb;">？？？？？？&copy;？？？？</p>
-  </div>
-  </div>
+<!--页眉开始-->
+<div id="header">
+    <!--幻灯片 开始-->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        $('.flexslider').flexslider({
+        
+            controlNav: true, 
+            
+            directionNav: false,
+            
+            animation: "slide",
+            
+            //manualControls: ".myflexslider .slidenav"
+        
+        });
+
+    });
+    </script>
+    <div id="banner" class="flexslider" >
+        <ul class="slides" id="slides">
+            <li id="slidesbg1"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg2"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg3"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg4"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+        </ul>
+    </div>
+    <!--幻灯片 结束-->
+</div>
+        
+<div id="content">
+    <!--导航开始-->
+    <ul class="channellist1">
+        <li><a href="login.html" style="background:#ff6e87; " class="ChannelName1"><div class="channel_icon1"><i class="icon-check icon-3x"></i></div>用户登录</a></li>
+        <li><a href="class.html" style="background:#72afe8;"  class="ChannelName2"><div class="channel_icon2"><i class="icon-book icon-3x"></i></div>课程预约 
+</a></li>
+        <li><a href="hzjm.html" style="background:#24d197;"  class="ChannelName2"><div class="channel_icon3"><i class="icon-user icon-3x"></i></div>个人中心</a></li>
+        <li><a href="xswl.html" style="background:#cf72e8;"  class="ChannelName1"><div class="channel_icon4"><i class="icon-building icon-3x"></i></div>老师一览</a></li>
+    </ul>
+    <!--导航结束-->
+    <!--导航开始-->
+    <ul class="channellist2">
+        <li><a href="blog.html" style="background:#dee5f3; "><i class="icon-calendar"></i>&nbsp;最新动态</a></li>
+        <li><a href="suggestion.html" style="background:#dee5f3;"><i class="icon-edit"></i>&nbsp;意见建议</a></li>
+        <li><a href="about.html" style="background:#dee5f3;"><i class="icon-home"></i>&nbsp;关于我们</a></li>
+        <li><a href="#" style="background:#dee5f3;"><i class="icon-tags"></i>&nbsp;更多链接</a></li>
+    </ul>
+    
+    <!--导航结束-->
+    <div class="clear"></div>
+</div>
+<!--页脚开始-->
+
+<div id="footer">
+    <div class="copyright">星辰studio&nbsp;版权所有</div>
+</div>
+<!--页脚结束-->
+
 </body>
 </html>

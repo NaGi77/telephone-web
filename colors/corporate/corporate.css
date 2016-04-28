@@ -29,9 +29,11 @@
 		.pages_container{ margin:60px 2.5%; background:none; padding:20px 2.5%; border:none; width:90%;}
 
 /*目录样式*/
-		.trigger_blog{background:url(images/toggle_blog.png) no-repeat right;
+		.trigger_blog{
+			background:url(images/toggle_blog.png) no-repeat right;
 			background-position:100% -22px;
-			margin-right:10px; }
+			margin-right:10px;
+		}
 		.activeb {background-position:100% 0px; }
 		ul.listing_detailed li {background:url(images/bullet_checked.png) no-repeat left; background-position:10px 5px;}
 		ul.photo_gallery_13 li{ width:31%; padding:0px;}
@@ -43,7 +45,7 @@
 		.post_right_unreveal{color:#FFFFFF;}
 		.post_right_unreveal a{color:#FFFFFF;}
 		.post_right_reveal h4{font-size:15px;}
-		a.post_more{background:url(images/bullet_cross_big.png) no-repeat center center #6bb3d2;
+		a.post_more{background:url(images/bullet_cross_big.png) no-repeat center center #72afe8;
 		}
 		a.activep{background:url(images/bullet_cross_big_close.png) no-repeat center center #e2e2e2;}
 		span.post_comments{background:url(images/comments.png) no-repeat left;}
