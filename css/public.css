@@ -4,7 +4,7 @@ body {
     max-width: 480px;
 }
 .header {
-    background:#52C3DD;
+    background:#7bbfea;
     height: 50px;
     position: relative;
     width: 100%;
@@ -75,7 +75,7 @@ footer{
     display:-webkit-box;
     display:-moz-box;
     display:box;  
-    background-color: #52C3DD;
+    background-color: #7bbfea;
     text-decoration: none;
     margin: 0;
     -webkit-box-shadow:0 0 10px #ccc;  
