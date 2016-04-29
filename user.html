@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head id="Head1">
+    <title>个人中心</title>
+    <meta charset='utf-8' />
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, user-scalable=0,maximum-scale=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/public.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> 
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <a href="index.html"><img src="Images/icon_home.png"></a>
+        <h1 class="title">建设ing</h1>
+        </div>
+     <!--幻灯片 开始-->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        $('.flexslider').flexslider({
+        
+            controlNav: true, 
+            
+            directionNav: false,
+            
+            animation: "slide",
+            
+            //manualControls: ".myflexslider .slidenav"
+        
+        });
+
+    });
+    </script>
+    <div id="banner" class="flexslider" >
+        <ul class="slides" id="slides">
+            <li id="slidesbg1"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg2"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg3"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+            <li id="slidesbg4"><!-- <img src="#" /> -->人人帮<br>这里的图片放什么呢<br>先待定吧</li>
+        </ul>
+    </div>
+    <!--幻灯片 结束-->
+    <div class="copyright">星辰studio&nbsp;版权所有</div>
+    </div>    
+    <footer>
+        <ul class="footer" type="none">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </footer>
+</body>
+</html>
