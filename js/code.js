@@ -180,15 +180,15 @@ $(".videocontainer").fitVids();
 $(".toggle_container").hide();
 $(".toggle_container_blog").hide();
 $(".trigger").click(function(){
-	$(this).toggleClass("active").next().slideToggle("slow");
-	return false;
+  $(this).toggleClass("active").next().slideToggle("slow");
+  return false;
 });
 $(".trigger_blog").click(function(){
-	$(this).toggleClass("activeb").next().slideToggle("slow");
-	return false;
+  $(this).toggleClass("activeb").next().slideToggle("slow");
+  return false;
 });
 $(".post_more").click(function(){
-	$(this).toggleClass("activep").next().slideToggle("slow");
-	return false;
+  $(this).toggleClass("activep").next().slideToggle("slow");
+  return false;
 });
 });

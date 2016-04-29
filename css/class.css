@@ -8,6 +8,7 @@ body{
   z-index: -1;
     max-width: 480px;
     min-height: 300px;
+    height: 160%;
 }
 .class_bg img{
   width: 100%;
