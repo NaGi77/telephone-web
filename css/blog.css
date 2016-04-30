@@ -84,6 +84,7 @@ span.class{
 	display:block; 
 	font-size:25px;
 	padding:10px 0 0 0;
+	padding-top: 30px;
 }
 .post_right_reveal{
 	width:60%; 
@@ -163,4 +164,8 @@ a.post_readmore{ padding:0 0 0 15px;font-weight:normal; font-size:12px;}
 	box-shadow: 0px 1px 3px rgb(190, 190, 190);
 }
 
-
+.but_order{
+	background: none;
+	border: 0px;
+	color: #fff;
+}

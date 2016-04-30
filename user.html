@@ -33,11 +33,11 @@
                                         </div>
                                         <ul type="none" class="user_butul1">
                                         <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(1);"><div class="but_pic" style="background:#F4499A;"><i class=" icon-bell-alt icon-large"></i></div><span>预约课程</span><i class="icon-angle-right icon-large but_right"></i></a><span class="but_hr"></span></li>
-                                        <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(2);"><div class="but_pic" style="background:#FDCE08;"><i class=" icon-trophy icon-large"></i></div><span>完成课程</span><i class="icon-angle-right icon-large but_right"></i></a></li>
+                                        <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(2);"><div class="but_pic" style="background:#FDCE08;"><i class=" icon-trophy icon-large"></i></div><span>关注课程</span><i class="icon-angle-right icon-large but_right"></i></a></li>
                                         </ul>
                                         <ul type="none" class="user_butul2">
                                         <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(4);"><div class="but_pic" style="background:#6CBCFC;"><i class="icon-calendar icon-large"></i></div><span>个人信息</span><i class="icon-angle-right icon-large but_right"></i></a><span class="but_hr"></span></li>
-                                        <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(3);"><div class="but_pic" style="background:#FD7E3E;"><i class=" icon-flag icon-large"></i></div><span>关注课程</span><i class="icon-angle-right icon-large but_right"></i></a><span class="but_hr"></span></li>
+                                        <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(3);"><div class="but_pic" style="background:#FD7E3E;"><i class=" icon-flag icon-large"></i></div><span>优惠卷</span><i class="icon-angle-right icon-large but_right"></i></a><span class="but_hr"></span></li>
                                         <li class="user_but"><a href="#" onclick="swiperParent.swipeTo(5);"><div class="but_pic" style="background:#6CD253;"><i class="icon-coffee icon-large"></i></div><span>邀请朋友</span><i class="icon-angle-right icon-large but_right"></i></a></li>
                                         </ul>
                                     <div class="clear"></div>
@@ -56,11 +56,25 @@
                             <div class="swiper-slide">
                                 <div class="slide-inner">
                                     <div class="pages_container" >
-                                        <ul>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                        </ul>
+                                        <div class="page1">
+                                            <img src="Images/login.jpg" class="order_bg">
+                                            <div class="page1_height">
+                                                <div class="form_bg"></div>
+                                                <form action="#" method="get">
+                                                <ul type="none" class="order_form">
+                                                    <h3><i class=" icon-bell-alt icon-large" style="color:#F4499A;"></i>预约课程</h3>
+                                                    <span class="order_line"></span>
+                                                    <li><span class="order_name" style="color:#fff;">课程</span>
+                                                        <span class="order_text"><p>此课的授课老师是：</p><p>XXX</p><p>课程内容</p></span>
+                                                    </li>
+                                                    <li><span class="order_name" style="color:#fff;">课程</span>
+                                                        <span class="order_text"><p>此课的授课老师是：</p><p>XXX</p><p>课程内容</p></span>
+                                                    </li>
+                                                </ul>
+
+                                                </form>
+                                            </div>
+                                        </div>
                                     <div class="back_user" style="background:#F4499A;"><a href="#" onclick="swiperParent.swipeTo(0);" > <i class="icon-reply icon-large"></i></a></div>
                                     <div class="clear"></div>
                                     </div>
@@ -117,10 +131,51 @@
                             <div class="swiper-slide">
                                 <div class="slide-inner">
                                     <div class="pages_container" >
-                                    1111111111111111111111111111<br><br><br><br><br><br><br>
-                                    1111111111111111111111111
-                                   <div class="back_user" style="background:#6CBCFC;"><a href="#" onclick="swiperParent.swipeTo(0);" > <i class="icon-reply icon-large"></i></a></div>
-                                    <div class="clear"></div>
+                                       <form>
+                                        <div class="personal">
+                                            <div class="p_img"><img src="Images/user.jpg"></div>
+                                            <div class="p_name">NaGi</div>
+                                            <input class="p_change" type="button" onclick="newdiv()" value="点击修改"/>
+                                            <script type="text/javascript">
+                                                function newdiv(){
+                                                    var a=document.getElementById('p_changetable');
+                                                    var b=document.getElementById('p_ul');
+                                                    a.style.display='block';
+                                                    b.style.display="none";
+                                                }
+                                            </script>
+                                       </div>
+                                       <div class="personal_tri"></div>
+                                       
+                                            <ul class="p_ul" id="p_ul">
+                                                 <li>&nbsp;&nbsp;&nbsp;<i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><span class="p_mes" id="sex1">女</span></li>
+                                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><span class="p_mes">武汉</span></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><span class="p_mes">Hust</span></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><span class="p_mes">1111-11-11</span></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><span class="p_mes">111@qq.com</span></li>
+
+                                            </ul>
+                                        <div class="p_changetable" id="p_changetable">
+                                            <ul class="p_ul">
+                                                 <li>&nbsp;&nbsp;&nbsp;<i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><input type="text" class="p_text" id="sex"></li>
+                                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><input type="text" class="p_text"></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><input type="text" class="p_text"></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><input type="text" class="p_text"></li>
+                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><input type="text" class="p_text"></li>
+                                                <input type="submit" value="提  交" class="p_submit" onclick="backdiv()">
+                                                <script type="text/javascript">
+                                                function backdiv(){
+                                                    var a=document.getElementById('p_changetable');
+                                                    var b=document.getElementById('p_ul');
+                                                    a.style.display='none';
+                                                    b.style.display="block";
+                                                }
+                                            </script>
+                                            </ul>
+                                        </div>
+                                       </form>
+                                       <div class="back_user" style="background:#6CBCFC; border:1px solid #fff;"><a href="#" onclick="swiperParent.swipeTo(0);" > <i class="icon-reply icon-large"></i></a></div>
+                                        <div class="clear"></div>
                                     </div>
                                     <!--End of page container-->
                                 </div>

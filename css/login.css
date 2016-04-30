@@ -257,17 +257,18 @@ box-shadow: 0px 0px 20px #fff;
   padding-left: 10px;
   font-size: 1.5rem;
   background: transparent;
-  color: #FDFCFD;
 }
 #user{
   background: none;
   border: 0px;
   box-shadow: 0px;
+  color: #fff;
 }
 #password{
   background: none;
   border: 0px;
   box-shadow: 0px;
+  color: #fff;
 }
 .login_submit {
   position: relative;
