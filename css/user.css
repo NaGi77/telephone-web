@@ -103,3 +103,164 @@
 	text-decoration: none;
 	color: #fff;
 }
+/*第一页 预约*/
+.page1{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding-top: 1px;
+	padding-bottom: 50px;
+}
+.order_bg{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+}
+.page1_height{
+	padding: 0;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	min-height: 350px;
+	position: relative;
+}
+.page1_height .form_bg{
+	height: 100%;
+	width: 100%;
+	background: #ccc;
+	opacity: 0.6;
+	z-index:-1;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px; 
+	-o-border-radius:5px;
+	border-radius: 5px;
+	position: absolute;
+}
+.order_form{
+	color: #670e60;
+}
+.order_form li{
+	height: 80px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #F4499A;
+}
+.order_form .order_line{
+	border-bottom: 1px dotted #F4499A;
+	width: 100%;
+	display: block;
+}
+.order_name{
+	height:60px;
+	font-size: 20px;
+	padding-top: 20px;
+	background: #F4499A;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	margin-top: 0;
+}
+.order_text{
+	height: 60px;
+	float: right;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+}
+/*个人资料*/
+.personal{
+	height: 120px;
+	width: 100%;
+}
+.p_img{
+	height: 70px;
+	width: 70px;
+	-webkit-border-radius:35px;
+	-moz-border-radius:35px; 
+	-o-border-radius:35px;
+	border-radius: 35px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -35px;
+	overflow: hidden;
+}
+.p_img img{
+	height: 100%;
+	width: 100%;
+}
+.p_name{
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.personal_tri{
+	margin: auto;
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom:10px solid #6CBCFC;
+}
+.p_ul{
+	background: #6CBCFC;
+	width: 100%;
+}
+.p_ul li .p_line{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-bottom: 1.5px solid #fff;
+}
+.p_ul li{
+	padding-top: 20px;
+	height: 40px;
+	position: relative;
+	color: #0c175c;
+	font-weight: bold;
+}
+.p_ul li .p_message{
+	position: absolute;
+	left: 50px;
+}
+li .p_mes{
+	position: absolute;
+	text-align: left;
+	right: 30px;
+	color: #fff;
+}
+.p_changetable{
+	background: #6CBCFC;
+	width: 100%;
+	display: none;
+	float: left;
+	top: 0;
+}
+.p_text{
+	background: none;
+	border: 1px solid #fff;
+	position: absolute;
+	right: 30px;
+}
+.p_change{
+	position: absolute;
+	top:100px;
+	right: 0;
+	background: #fff;
+	border: 1px solid #6CBCFC;
+	cursor: pointer;
+}
+.p_submit{
+	margin-left: 250px;
+	background: #fff;
+	border: 1px solid #6CBCFC;
+	cursor: pointer;
+}
+
+.sg_img{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
