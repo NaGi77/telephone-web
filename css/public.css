@@ -106,3 +106,14 @@ footer{
     width: 100%;
     height: 100%;
 }
+/*版权信息*/
+
+.copyright{ 
+    padding:3px; 
+    text-align:center; 
+    font-size:14px; 
+    color:#666; 
+    border:0px solid red}
+
+.copyright a{color:#666; 
+    font-size:14px;}

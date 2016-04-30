@@ -258,3 +258,9 @@ li .p_mes{
 	border: 1px solid #6CBCFC;
 	cursor: pointer;
 }
+
+.sg_img{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}

@@ -316,10 +316,6 @@ html[xmlns] .slides {display: block;}
 
 /*版权信息*/
 
-.copyright{ padding:3px; text-align:center; font-size:14px; color:#666; border:0px solid red}
-
-.copyright a{color:#666; font-size:14px;}
-
 .TechnicalSupport{ text-align:center; font-size:14px; color:#666; padding-bottom:5px;}
 
 .TechnicalSupport a{color:#666; font-size:14px;}
