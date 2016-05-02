@@ -41,10 +41,16 @@
                              此课的授课老师是<a href="#">XXX</a>
                              <span class="post_comments">?? 人已上过此课程</span>
                              <form action="#" method="post">
-                             <input type="submit" value="预约此课" class="but_order" onclick=""></input>
+                             <input type="submit" value="预约此课" class="but_order" onclick="c_show()">
                             </form>
                              </div> 
-
+                             <script type="text/javascript">
+                                function c_show(){
+                                    var a='{{ information}}';
+                                    if (a!="") {};
+                                    window.alert('{{ information}}');
+                                     }
+                             </script>
                             <div class="post_left">
                                 <span class="class">课程</span>
                             </div>
