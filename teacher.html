@@ -9,23 +9,80 @@
     <link href="css/public.css" rel="stylesheet" />
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/teacher.css">
+    <link type="text/css" rel="stylesheet" href="colors/corporate/corporate.css">
 </head>
 <body>
     <div class="container">
+<!--         <div class="blog_bg"><img src="Images/about.jpg"></div> -->
         <div class="header">
         <a href="index.html"><img src="Images/icon_home.png"></a>
-        <h1 class="title">老师一览</h1>
+        <h1 class="title">课程预约</h1>
         </div>
-        <form>
-            <ul>
-                <li><img src="Images/user.jpg"><span>xxx</span></li>
-                <li></li>
+        <img src="Images/blog.jpg" class="order_bg">
+            <ul class="posts" type="none" id="t_ul">
+                    <li class="post">
+                        <span class="order_name" style="color:#fff;"><p>老师姓名</p></span>
+                        <span class="order_text">老师简介：abc&nbsp;abc abc abc abc abc abc abcabc abc abc abc abc 。。
+                        <!-- <br><a href="#" onclick="showdiv()">点击查看此老师的课程</a></span> -->
+                    </li>
+
+                    <!-- 这里往下都是一样的 -->
+                    <li class="post">
+                        <span class="order_name" style="color:#fff;"><p>老师姓名</p></span>
+                        <span class="order_text">老师简介：abc&nbsp;abc abc abc abc abc abc abcabc abc abc abc abc 。。
+                        <!-- <br><a href="#"  onclick="showdiv()" >点击查看此老师的课程</a></span> -->
+                    </li>
+                    <li class="post">
+                        <span class="order_name" style="color:#fff;"><p>老师姓名</p></span>
+                        <span class="order_text">老师简介：abc&nbsp;abc abc abc abc abc abc abcabc abc abc abc abc 。。
+                       <!--  <br><a href="#"  onclick="showdiv()">点击查看此老师的课程</a></span> -->
+                    </li>
+                    <li class="post">
+                        <span class="order_name" style="color:#fff;"><p>老师姓名</p></span>
+                        <span class="order_text">老师简介：abc&nbsp;abc abc abc abc abc abc abcabc abc abc abc abc 。。
+                       <!--  <br><a href="#"  onclick="showdiv()">点击查看此老师的课程</a></span> -->
+                    </li>
+                        <!-- 到这里 -->
+                </ul> 
+              <div id="loadMore">向下显示更多课程</div> 
+            <div id="showLess">木有课了</div>
+<!--         <div class="show" id="t_class">
+            <span>此老师开的课程有：</span>
+            <ul type="none" class="t_hul">
+                <li class="post">
+                            <span class="order_name" style="color:#fff;"><p>课程名称</p></span>
+                            <span class="order_text">课程简介：abc&nbsp;abc abc abc abc abc abc abcabc abc abc abc abc 。。
+                            <br><input type="submit" value="预约此课" onclick="hiddendiv()"></input>
+                            <input type="submit" value="点击关闭" onclick="hiddendiv()"></input>
+                        </span>
+                </li>
             </ul>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-        </form>
+        </div> -->
+        <script type="text/javascript">
+/*            function showdiv(){
+                var a=document.getElementById('t_class');
+
+                a.style.display='block';
+
+            }
+            function hiddendiv(){
+                var a=document.getElementById('t_class');
+
+                a.style.display='none';
+
+            }*/
+        </script>
+<!--End of page container-->
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+
     </div>    
     <footer>
         <ul class="footer" type="none">

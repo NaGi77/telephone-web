@@ -225,6 +225,9 @@
 	position: absolute;
 	left: 50px;
 }
+.p_ul li i{
+	margin-left: 10px;
+}
 li .p_mes{
 	position: absolute;
 	text-align: left;

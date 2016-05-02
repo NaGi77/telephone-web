@@ -148,20 +148,20 @@
                                        <div class="personal_tri"></div>
                                        
                                             <ul class="p_ul" id="p_ul">
-                                                 <li>&nbsp;&nbsp;&nbsp;<i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><span class="p_mes" id="sex1">女</span></li>
-                                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><span class="p_mes">武汉</span></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><span class="p_mes">Hust</span></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><span class="p_mes">1111-11-11</span></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><span class="p_mes">111@qq.com</span></li>
+                                                 <li><i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><span class="p_mes" id="sex1">女</span></li>
+                                                <li><i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><span class="p_mes">武汉</span></li>
+                                                <li><i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><span class="p_mes">Hust</span></li>
+                                                <li><i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><span class="p_mes">1111-11-11</span></li>
+                                                <li><i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><span class="p_mes">111@qq.com</span></li>
 
                                             </ul>
                                         <div class="p_changetable" id="p_changetable">
                                             <ul class="p_ul">
-                                                 <li>&nbsp;&nbsp;&nbsp;<i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><input type="text" class="p_text" id="sex"></li>
-                                                <li>&nbsp;&nbsp;&nbsp;&nbsp;<i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><input type="text" class="p_text"></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><input type="text" class="p_text"></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><input type="text" class="p_text"></li>
-                                                <li>&nbsp;&nbsp;&nbsp;<i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><input type="text" class="p_text"></li>
+                                                 <li><i class="  icon-user icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Sex</span><input type="text" class="p_text" id="sex"></li>
+                                                <li><i class=" icon-map-marker icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">City</span><input type="text" class="p_text"></li>
+                                                <li><i class="  icon-suitcase icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">School</span><input type="text" class="p_text"></li>
+                                                <li><i class=" icon-coffee icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">Birthday</span><input type="text" class="p_text"></li>
+                                                <li><i class=" icon-envelope icon-large"></i><!-- <span class="p_line"></span> --><span class="p_message">E-mail</span><input type="text" class="p_text"></li>
                                                 <input type="submit" value="提  交" class="p_submit" onclick="backdiv()">
                                                 <script type="text/javascript">
                                                 function backdiv(){
@@ -169,6 +169,11 @@
                                                     var b=document.getElementById('p_ul');
                                                     a.style.display='none';
                                                     b.style.display="block";
+
+                                                    var c='{{ information}}';
+                                                    if (c!="") {};
+                                                    window.alert('{{ information}}');
+                                                     }
                                                 }
                                             </script>
                                             </ul>
